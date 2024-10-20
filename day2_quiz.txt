@@ -1,0 +1,124 @@
+1. What is JavaScript mainly used for?
+a) Backend development
+b) Data analysis
+c) Creating interactive web pages
+d) Designing databases
+Answer: c) Creating interactive web pages
+
+2. Which of the following is the correct way to declare a variable in JavaScript using ES6?
+a) let myVariable = 5;
+b) var myVariable := 5;
+c) myVariable := 5;
+d) int myVariable = 5;
+Answer: a) let myVariable = 5;
+
+3. What will be the output of the following code?
+console.log(typeof "Hello, World!");
+
+a) string
+b) number
+c) boolean
+d) undefined
+Answer: a) string
+
+4. Which keyword should be used to declare a variable that will never be reassigned?
+a) let
+b) var
+c) const
+d) static
+Answer: c) const
+
+5. Which of the following data types in JavaScript represents a boolean value?
+a) "true"
+b) 42
+c) false
+d) undefined
+Answer: c) false
+
+6. What does console.log() do in JavaScript?
+a) It shows a pop-up alert
+b) It prints messages to the browser's console
+c) It clears the console
+d) It pauses the code execution
+Answer: b) It prints messages to the browser's console
+
+7. What is the output of the following code?
+let x;
+console.log(x);
+
+a) null
+b) undefined
+c) 0
+d) NaN
+Answer: b) undefined
+
+8. Which of the following is a correct way to declare a string variable in JavaScript?
+a) let str = 'Hello';
+b) let str = true;
+c) let str = 123;
+d) let str = [1, 2, 3];
+Answer: a) let str = 'Hello';
+
+9. What will be the output of the following code?
+let a = 10;
+let b = "10";
+
+console.log(a == b);
+a) false
+b) true
+c) null
+d) undefined
+Answer: b) true
+
+10. What data type is represented by null in JavaScript?
+a) object
+b) undefined
+c) string
+d) boolean
+Answer: a) object
+
+11. Which of the following is a valid Boolean value in JavaScript?
+a) "false"
+b) 1
+c) true
+d) null
+Answer: c) true
+
+12. What will be the output of the following code in the browser's console?
+let a = 10;
+let b = 20;
+console.log(a + b);
+
+a) 1020
+b) 30
+c) undefined
+d) NaN
+Answer: b) 30
+
+13. Which of the following will correctly log a variable to the console using Chrome DevTools?
+a) log(variableName)
+b) console.write(variableName)
+c) print(variableName)
+d) console.log(variableName)
+Answer: d) console.log(variableName)
+
+14. Which of the following statements about const is true in JavaScript?
+a) A variable declared with const can be reassigned a new value later
+b) A const variable must be initialized at the time of declaration
+c) const variables can be declared without a value and assigned later
+d) const is block-scoped but behaves the same as var
+Answer: b) A const variable must be initialized at the time of declaration
+
+15. What is the default value of a declared but uninitialized variable in JavaScript?
+a) 0
+b) null
+c) undefined
+d) false
+Answer: c) undefined
+
+16. Which of the following is a valid way to declare a Boolean in JavaScript?
+a) let isValid = "false";
+b) let isValid = true;
+c) let isValid = 'false';
+d) let isValid = 1;
+Answer: b) let isValid = true;
