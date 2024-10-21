@@ -5,7 +5,7 @@ c) Creating interactive web pages
 d) Designing databases
 Answer: c) Creating interactive web pages
 
-2. Which of the following is the correct way to declare a variable in JavaScript using ES6?
+2. Which of the following is the correct way to declare a variable in JavaScript ?
 a) let myVariable = 5;
 b) var myVariable := 5;
 c) myVariable := 5;
