@@ -33,6 +33,7 @@
     // console.log(display[2]);
     let thirdDiv = display[2]
     let fourthDiv = display[3]
+    let secondDiv = display[1];
 
 
     let fifthDiv = display[4]
@@ -40,16 +41,6 @@
     //get attribute
     // console.log(fifthDiv.getAttribute("class"));
     
-
-
-
-
-
-
-
-
-
-
 
     //textContext
     thirdDiv.textContent = "hello World";
@@ -66,12 +57,51 @@
 
 
     // querySelector
-    let con = document.querySelector(".display")
+    let con = document.querySelector(".display");
     // console.log(con);
 
 
 
-    // modifying html attributes with JS
+    // creating HTML elements with JavaScript
+    // createElement
+    let sixthDiv = document.createElement("div");
+
+    
+
+    //appending the HTML element
+    // container.appendChild(sixthDiv);
+
+    container.insertBefore(sixthDiv, fourthDiv);
+
+
+    // insertBefore
+
+    // 1. set the context of the sixthDiv to "this is the sixt div"
+    // 2. set the attribute to class and add display as the attribute value
+
+    sixthDiv.textContent = "This is the sixth div";
+    sixthDiv.setAttribute("class", "display");
+
+    //removing and replacing HTML elements
+    container.removeChild(secondDiv);
+
+
+
+    //creating a new element and replacing an element 
+    let newDiv = document.createElement("div");
+    newDiv.textContent = "This is a new div";
+    newDiv.setAttribute("class", "display");
+
+    let firstDiv = display[0];
+
+
+    //replaceChild
+    container.replaceChild(newDiv, firstDiv);
+
+    
+
+
+
 
 
 
