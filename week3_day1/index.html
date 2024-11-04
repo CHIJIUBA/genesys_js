@@ -7,13 +7,78 @@
     <title>DOM</title>
 </head>
 <body>
-    <div id="container">
+    <div id="container" class="worth">
         <div class="display"> This is the first child</div>
         <div class="display">This is the second child</div>
+        <div class="display">This is the third child</div>
+        <div class="display">This is the fourth child</div>
+        <div class="display">This is the fifth child</div>
     </div>
-    
- <script>
 
+
+ <script>
+    // getElementById
+    let container = document.getElementById("container");
+    // getAttribute
+    console.log(container.getAttribute("class"));
+
+    //setAttribute
+    container.setAttribute("style", "background-color: yellow");
+
+
+
+
+    //getElementsByClassName
+    let display = document.getElementsByClassName("display");
+    // console.log(display[2]);
+    let thirdDiv = display[2]
+    let fourthDiv = display[3]
+
+
+    let fifthDiv = display[4]
+
+    //get attribute
+    // console.log(fifthDiv.getAttribute("class"));
+    
+
+
+
+
+
+
+
+
+
+
+
+    //textContext
+    thirdDiv.textContent = "hello World";
+
+
+    //innerHTML
+    fourthDiv.innerHTML = "I am now inner HTML";
+
+
+    //getElementsByTagName
+    let divs = document.getElementsByTagName("div");
+    // console.log(divs);
+
+
+
+    // querySelector
+    let con = document.querySelector(".display")
+    // console.log(con);
+
+
+
+    // modifying html attributes with JS
+
+
+
+
+
+
+    
  </script>
 </body>
 </html>
